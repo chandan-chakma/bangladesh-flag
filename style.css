@@ -1,0 +1,25 @@
+.alu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4px;
+}
+
+.first {
+    color: red;
+    background-color: red;
+}
+
+.se {
+    color: black;
+    background-color: black;
+}
+
+.thi {
+    columns: blue;
+    background-color: blue;
+}
+
+.ani:hover {
+    transform: rotate(90deg);
+    transition: transform 0.5s;
+}
